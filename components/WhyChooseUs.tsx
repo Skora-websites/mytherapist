@@ -43,7 +43,7 @@ const features = [
     title: "Customized Therapy Plans",
     description:
       "Individualized plans tailored to specific goals and learning styles.",
-    image: "/images/aba.jpg",
+    image: "/images/customized-therapy.jpg",
     icon: (
       <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M11 4a2 2 0 114 0v1a1 1 0 001 1h3a1 1 0 011 1v3a1 1 0 01-1 1h-1a2 2 0 100 4h1a1 1 0 011 1v3a1 1 0 01-1 1h-3a1 1 0 01-1-1v-1a2 2 0 10-4 0v1a1 1 0 01-1 1H6a1 1 0 01-1-1v-3a1 1 0 00-1-1H3a2 2 0 110-4h1a1 1 0 001-1V7a1 1 0 011-1h3a1 1 0 001-1V4z" />
@@ -68,8 +68,7 @@ export default function WhyChooseUs() {
             What Makes Us <span className="text-brand-blue">Different</span>
           </h2>
           <p className="text-gray-600 max-w-2xl mx-auto text-base sm:text-lg">
-            We are committed to providing the highest quality therapy services
-            in a nurturing environment that celebrates each child&apos;s unique journey.
+           We make parents an active part of the therapy journey. Individualized plans are updated daily, and open sessions help parents observe, understand, and support their child’s progress beyond the therapy room.
           </p>
         </div>
 

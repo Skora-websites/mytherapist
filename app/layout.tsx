@@ -56,7 +56,7 @@ export const metadata: Metadata = {
       "Expert speech therapy, ABA therapy, occupational therapy, and special education services for children in Noida, Uttar Pradesh.",
     images: [
       {
-        url: "/logo.jpeg",
+        url: "/logo.png",
         width: 800,
         height: 600,
         alt: "My Therapist Development Center",
@@ -73,7 +73,7 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
   name: "My Therapist Development Center",
-  image: "/logo.jpeg",
+  image: "/logo.png",
   telephone: "+917701833231",
   email: "mytherapists4@gmail.com",
   address: {

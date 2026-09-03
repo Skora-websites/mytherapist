@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 const footerNav = [
   { label: "Home", href: "/" },
@@ -29,16 +30,7 @@ const socialLinks = [
     href: "#",
     path: "M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01M6.5 3h11A3.5 3.5 0 0121 6.5v11a3.5 3.5 0 01-3.5 3.5h-11A3.5 3.5 0 013 17.5v-11A3.5 3.5 0 016.5 3z",
   },
-  {
-    label: "Twitter",
-    href: "#",
-    path: "M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z",
-  },
-  {
-    label: "YouTube",
-    href: "#",
-    path: "M22.54 6.42a2.78 2.78 0 00-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 00-1.94 2A29 29 0 001 11.75a29 29 0 00.46 5.33A2.78 2.78 0 003.4 19.1c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 001.94-2 29 29 0 00.46-5.25 29 29 0 00-.46-5.33z M9.75 15.02V8.48l5.75 3.27-5.75 3.27z",
-  },
+
 ];
 
 export default function Footer() {
@@ -48,9 +40,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12">
           {/* Brand & About */}
           <div className="sm:col-span-2 lg:col-span-1">
-            <h3 className="text-xl font-bold text-brand-pink mb-4">
-              My Therapist
-            </h3>
+            <Image src="/logo.png" alt="My Therapist Child Development Centre" width={200} height={60} className="h-16 w-auto mb-4" />
             <p className="text-gray-400 text-sm leading-relaxed mb-4">
               Dedicated to helping children reach their full potential through
               compassionate, evidence-based therapy services.

@@ -32,11 +32,11 @@ export default function Header() {
   const [activeDropdown, setActiveDropdown] = useState<number | null>(null);
 
   return (
-    <header className="sticky top-0 z-50 bg-white/95 backdrop-blur-sm border-b border-gray-100 shadow-sm">
+    <header className="sticky top-0 z-50 bg-white backdrop-blur-sm border-b border-gray-100 shadow-sm">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 sm:h-20">
           <Link href="/" className="flex-shrink-0">
-            <Image src="/logo.jpeg" alt="My Therapist Development Center" width={180} height={50} priority className="h-10 sm:h-12 w-auto" />
+            <Image src="/logo.png" alt="My Therapist Development Center" width={180} height={50} priority className="h-10 sm:h-12 w-auto" />
           </Link>
           <nav className="hidden lg:flex items-center gap-1">
             {navLinks.map((link, idx) => (
