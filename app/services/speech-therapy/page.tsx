@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 
 export default function SpeechTherapyPage() {
   return (
-    <ServiceDetail bgImage="/images/speech.jpg"
+    <ServiceDetail bgImage="/images/speech-therapy.jpeg"
       title="Speech Therapy"
       subtitle="for Children"
       description="Speech therapy helps children overcome communication challenges including articulation disorders, fluency issues (stuttering), voice problems, and resonance disorders. Our certified speech-language pathologists use evidence-based techniques tailored to each child's unique needs."

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 
 export default function OccupationalTherapyPage() {
   return (
-    <ServiceDetail bgImage="/images/occupational.jpg"
+    <ServiceDetail bgImage="/images/occupational-therapy.jpeg"
       title="Occupational Therapy"
       subtitle="for Children"
       description="Occupational therapy helps children develop the skills needed for daily living, including fine motor skills, hand-eye coordination, self-care abilities, and sensory processing. Our therapists work with children to build independence and confidence in everyday activities."

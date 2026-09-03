@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 
 export default function SpecialEducationPage() {
   return (
-    <ServiceDetail bgImage="/images/education.jpg"
+    <ServiceDetail bgImage="/images/special-education.jpeg"
       title="Special Education"
       subtitle="Programs"
       description="Our special education programs provide individualized educational plans for children with learning disabilities, developmental delays, and intellectual challenges. We use evidence-based teaching strategies to help each child reach their academic and developmental potential."

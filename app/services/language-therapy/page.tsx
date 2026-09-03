@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 
 export default function LanguageTherapyPage() {
   return (
-    <ServiceDetail bgImage="/images/language.jpg"
+    <ServiceDetail bgImage="/images/language-therapy.jpeg"
       title="Language Therapy"
       subtitle="for Children"
       description="Language therapy focuses on helping children develop receptive (understanding) and expressive (using) language skills. We address vocabulary development, sentence structure, comprehension, and social communication to help children express themselves effectively."

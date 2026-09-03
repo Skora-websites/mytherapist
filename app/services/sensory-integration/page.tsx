@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 
 export default function SensoryIntegrationPage() {
   return (
-    <ServiceDetail bgImage="/images/sensory.jpg"
+    <ServiceDetail bgImage="/images/sensory-integration.jpeg"
       title="Sensory Integration"
       subtitle="Therapy"
       description="Sensory integration therapy helps children who have difficulty processing and responding to sensory information from their environment. Through carefully designed activities, we help children better understand and respond to sensory input, improving their ability to function in daily life."

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 
 export default function ABATherapyPage() {
   return (
-    <ServiceDetail bgImage="/images/aba.jpg"
+    <ServiceDetail bgImage="/images/aba-therapy.jpeg"
       title="ABA Therapy"
       subtitle="for ASD"
       description="Applied Behavior Analysis (ABA) is a scientifically validated approach to understanding and improving behavior. Our ABA therapy uses evidence-based techniques to help children with Autism Spectrum Disorder develop social skills, improve learning, and reduce challenging behaviors."
