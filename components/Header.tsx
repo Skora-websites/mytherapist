@@ -9,7 +9,6 @@ const navLinks = [
   {
     label: "About Us",
     href: "/about",
-    children: [{ label: "Leadership", href: "/about#leadership" }],
   },
   {
     label: "Services",

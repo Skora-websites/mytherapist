@@ -46,7 +46,18 @@ export default function BookingForm() {
     if (!formData.time) ne.time = "Please select a time";
     setErrors(ne); return Object.keys(ne).length === 0;
   };
-  const handleSubmit = (e: FormEvent) => { e.preventDefault(); if (validate()) setSubmitted(true); };
+  const handleSubmit = (e: FormEvent) => { 
+    e.preventDefault(); 
+    if (validate()) {
+      const { patientName, patientAge, parentName, parentContact, email, treatment, date, time, message } = formData;
+      const text = `*New Appointment Request*\n\n*Patient:* ${patientName} (Age: ${patientAge})\n*Parent:* ${parentName}\n*Contact:* ${parentContact}\n*Email:* ${email || 'N/A'}\n*Treatment:* ${treatment}\n*Date:* ${date}\n*Time:* ${time}\n*Message:* ${message || 'N/A'}`;
+      
+      const whatsappUrl = `https://wa.me/917701833231?text=${encodeURIComponent(text)}`;
+      window.open(whatsappUrl, '_blank');
+      
+      setSubmitted(true); 
+    }
+  };
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement>) => {
     const { name, value } = e.target;
     setFormData((prev) => ({ ...prev, [name]: value }));

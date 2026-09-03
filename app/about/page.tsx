@@ -8,7 +8,7 @@ import Leadership from "@/components/Leadership";
 export const metadata: Metadata = {
   title: "About Us",
   description:
-    "Learn about My Therapist Development Center and our founder Vaishali Chauhan with 9+ years of experience in ASD and DHLS therapy.",
+    "Learn about My Therapist Development Center and our founder Vaishali Chauhan with 10+ years of experience in ASD and DHLS therapy.",
 };
 
 export default function AboutPage() {

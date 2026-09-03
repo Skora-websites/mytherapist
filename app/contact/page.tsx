@@ -12,8 +12,20 @@ export default function ContactPage() {
   const formRef = useGsapScrollAnimation("fade-up");
   const infoRef = useGsapScrollAnimation("fade-right");
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
+    const form = new FormData(e.currentTarget);
+    const name = form.get('name') as string;
+    const phone = form.get('phone') as string;
+    const email = form.get('email') as string;
+    const subject = form.get('subject') as string;
+    const message = form.get('message') as string;
+
+    const text = `*New Contact Inquiry*\n\n*Name:* ${name}\n*Phone:* ${phone}\n*Email:* ${email || 'N/A'}\n*Subject:* ${subject}\n*Message:* ${message}`;
+    
+    const whatsappUrl = `https://wa.me/917701833231?text=${encodeURIComponent(text)}`;
+    window.open(whatsappUrl, '_blank');
+
     setSubmitted(true);
   };
 
@@ -126,27 +138,27 @@ export default function ContactPage() {
                       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                         <div>
                           <label className="block text-sm font-medium text-gray-700 mb-1">Name *</label>
-                          <input type="text" required className="w-full px-4 py-3 rounded-xl border border-gray-200 text-sm focus:ring-2 focus:ring-brand-pink/30 focus:border-brand-pink outline-none transition-all" placeholder="Your name" />
+                          <input type="text" name="name" required className="w-full px-4 py-3 rounded-xl border border-gray-200 text-sm focus:ring-2 focus:ring-brand-pink/30 focus:border-brand-pink outline-none transition-all" placeholder="Your name" />
                         </div>
                         <div>
                           <label className="block text-sm font-medium text-gray-700 mb-1">Phone *</label>
-                          <input type="tel" required className="w-full px-4 py-3 rounded-xl border border-gray-200 text-sm focus:ring-2 focus:ring-brand-pink/30 focus:border-brand-pink outline-none transition-all" placeholder="+91 XXXXX XXXXX" />
+                          <input type="tel" name="phone" required className="w-full px-4 py-3 rounded-xl border border-gray-200 text-sm focus:ring-2 focus:ring-brand-pink/30 focus:border-brand-pink outline-none transition-all" placeholder="+91 XXXXX XXXXX" />
                         </div>
                       </div>
 
                       <div>
                         <label className="block text-sm font-medium text-gray-700 mb-1">Email</label>
-                        <input type="email" className="w-full px-4 py-3 rounded-xl border border-gray-200 text-sm focus:ring-2 focus:ring-brand-pink/30 focus:border-brand-pink outline-none transition-all" placeholder="your@email.com" />
+                        <input type="email" name="email" className="w-full px-4 py-3 rounded-xl border border-gray-200 text-sm focus:ring-2 focus:ring-brand-pink/30 focus:border-brand-pink outline-none transition-all" placeholder="your@email.com" />
                       </div>
 
                       <div>
                         <label className="block text-sm font-medium text-gray-700 mb-1">Subject *</label>
-                        <input type="text" required className="w-full px-4 py-3 rounded-xl border border-gray-200 text-sm focus:ring-2 focus:ring-brand-pink/30 focus:border-brand-pink outline-none transition-all" placeholder="How can we help?" />
+                        <input type="text" name="subject" required className="w-full px-4 py-3 rounded-xl border border-gray-200 text-sm focus:ring-2 focus:ring-brand-pink/30 focus:border-brand-pink outline-none transition-all" placeholder="How can we help?" />
                       </div>
 
                       <div>
                         <label className="block text-sm font-medium text-gray-700 mb-1">Message *</label>
-                        <textarea required rows={4} className="w-full px-4 py-3 rounded-xl border border-gray-200 text-sm focus:ring-2 focus:ring-brand-pink/30 focus:border-brand-pink outline-none transition-all resize-none" placeholder="Tell us more about your inquiry..." />
+                        <textarea name="message" required rows={4} className="w-full px-4 py-3 rounded-xl border border-gray-200 text-sm focus:ring-2 focus:ring-brand-pink/30 focus:border-brand-pink outline-none transition-all resize-none" placeholder="Tell us more about your inquiry..." />
                       </div>
 
                       <button type="submit" className="w-full px-8 py-3.5 bg-brand-pink text-white font-semibold rounded-xl hover:bg-pink-500 transition-all duration-200 shadow-md hover:shadow-lg">

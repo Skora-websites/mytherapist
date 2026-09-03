@@ -33,7 +33,7 @@ export default function Leadership() {
             </div>
             {/* Experience badge */}
             <div className="absolute -bottom-4 -right-4 sm:bottom-6 sm:-right-6 bg-brand-pink text-white rounded-2xl shadow-xl px-6 py-4 text-center">
-              <div className="text-3xl font-bold">9+</div>
+              <div className="text-3xl font-bold">10+</div>
               <div className="text-sm font-medium">Years of<br />Experience</div>
             </div>
           </div>
@@ -50,7 +50,7 @@ export default function Leadership() {
 
             <p className="text-gray-600 leading-relaxed mb-4">
               Vaishali Chauhan is the founder and lead therapist at My Therapist
-              Development Center, bringing over <strong className="text-gray-900">9 years of specialized
+              Development Center, bringing over <strong className="text-gray-900">10 years of specialized
               experience</strong> in the field of child development and therapy.
             </p>
 

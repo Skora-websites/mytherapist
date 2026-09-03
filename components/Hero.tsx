@@ -29,7 +29,7 @@ export default function Hero() {
               <Link href="/services" className="inline-flex items-center justify-center px-8 py-4 bg-brand-blue text-white font-bold rounded-2xl border-2 border-brand-blue hover:bg-brand-blue/90 hover:shadow-lg hover:shadow-brand-blue/30 transition-all duration-300 text-base">Our Services</Link>
             </div>
             <div className="grid grid-cols-3 gap-6 pt-8 border-t border-white/20">
-              <div className="text-center lg:text-left"><div className="text-3xl sm:text-4xl font-bold text-brand-pink">9+</div><div className="text-sm text-white/70 font-medium mt-1">Years Experience</div></div>
+              <div className="text-center lg:text-left"><div className="text-3xl sm:text-4xl font-bold text-brand-pink">10+</div><div className="text-sm text-white/70 font-medium mt-1">Years Experience</div></div>
               <div className="text-center lg:text-left"><div className="text-3xl sm:text-4xl font-bold text-white">500+</div><div className="text-sm text-white/70 font-medium mt-1">Happy Families</div></div>
               <div className="text-center lg:text-left"><div className="text-3xl sm:text-4xl font-bold text-brand-pink">11+</div><div className="text-sm text-white/70 font-medium mt-1">Therapy Services</div></div>
             </div>
@@ -47,7 +47,7 @@ export default function Hero() {
               </div>
               <div className="absolute -bottom-4 right-4 sm:bottom-6 sm:right-8 bg-white rounded-2xl shadow-xl p-4 flex items-center gap-3"><div className="w-11 h-11 rounded-xl bg-brand-blue/10 flex items-center justify-center"><svg className="w-5 h-5 text-brand-blue" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg></div><div><div className="font-bold text-gray-900 text-sm">Evidence-Based</div><div className="text-xs text-gray-500">Proven Methods</div></div></div>
               <div className="absolute -top-4 left-4 sm:top-6 sm:left-8 bg-white rounded-2xl shadow-xl p-4 flex items-center gap-3"><div className="w-11 h-11 rounded-xl bg-brand-pink/10 flex items-center justify-center"><svg className="w-5 h-5 text-brand-pink" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg></div><div><div className="font-bold text-gray-900 text-sm">Child-Friendly</div><div className="text-xs text-gray-500">Safe &amp; Welcoming</div></div></div>
-              <div className="absolute bottom-1/2 -right-4 sm:right-4 bg-brand-pink text-white rounded-2xl shadow-xl px-5 py-3 text-center"><div className="text-2xl font-bold">9+</div><div className="text-xs font-medium">Years</div></div>
+              <div className="absolute bottom-1/2 -right-4 sm:right-4 bg-brand-pink text-white rounded-2xl shadow-xl px-5 py-3 text-center"><div className="text-2xl font-bold">10+</div><div className="text-xs font-medium">Years</div></div>
             </div>
           </div>
         </div>
