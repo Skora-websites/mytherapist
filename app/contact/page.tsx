@@ -66,9 +66,11 @@ export default function ContactPage() {
                     </div>
                     <div>
                       <h3 className="font-bold text-gray-900 mb-1">Our Address</h3>
-                      <p className="text-gray-600 text-sm">
-                        My Therapist Development Center<br />
-                        Noida, Uttar Pradesh - 201318
+                      <p className="text-gray-600 text-sm">                        My Therapist Development Center
+                        <br />
+                        H-43, 1st Avenue, Gaur City-1, Noida Extension.
+                        <br />
+                        B-180, Sector-2, Patwari, Gr Noida West.
                       </p>
                     </div>
                   </div>

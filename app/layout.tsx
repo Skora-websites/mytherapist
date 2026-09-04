@@ -78,9 +78,9 @@ const jsonLd = {
   email: "mytherapists4@gmail.com",
   address: {
     "@type": "PostalAddress",
-    addressLocality: "Noida",
+    addressLocality: "Noida Extension",
     addressRegion: "Uttar Pradesh",
-    postalCode: "201318",
+    postalCode: "201301",
     addressCountry: "IN",
   },
   geo: {
