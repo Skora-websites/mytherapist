@@ -60,7 +60,7 @@ export default function ServicesPage() {
       <TopBar />
       <Header />
       <main className="flex-1">
-        <SubPageHero bgImage="/images/services.jpg" title="Our"
+        <SubPageHero bgImage="/images/aba-therapy.jpeg" title="Our"
           highlight="Services"
           subtitle="We offer a comprehensive range of specialized therapy services designed to support every aspect of your child's development."
           breadcrumbs={[

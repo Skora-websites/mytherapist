@@ -7,15 +7,18 @@ import SubPageHero from "@/components/SubPageHero";
 import { useGsapStaggerChildren } from "@/components/hooks/useGsapAnimation";
 
 const galleryItems = [
-  { title: "Therapy Sessions", category: "Activities", image: "/images/gallery_sessions.jpg" },
-  { title: "Play Area", category: "Facilities", image: "/images/gallery_facilities.jpg" },
-  { title: "Group Activities", category: "Sessions", image: "/images/gallery_activities.jpg" },
-  { title: "Art & Craft", category: "Activities", image: "/images/gallery_activities.jpg" },
-  { title: "Sensory Room", category: "Facilities", image: "/images/gallery_facilities.jpg" },
-  { title: "Outdoor Play", category: "Activities", image: "/images/gallery_activities.jpg" },
-  { title: "Assessment Area", category: "Facilities", image: "/images/gallery_sessions.jpg" },
-  { title: "Parent Sessions", category: "Sessions", image: "/images/blog_parents.jpg" },
-  { title: "Celebrations", category: "Events", image: "/images/gallery_sessions.jpg" },
+  { title: "Group Therapy Session", category: "Activities", image: "/images/mytherapist%20gallery/WhatsApp%20Image%202026-09-04%20at%203.08.18%20PM%20(1).jpeg" },
+  { title: "Parent Meeting", category: "Sessions", image: "/images/mytherapist%20gallery/WhatsApp%20Image%202026-09-04%20at%203.08.18%20PM%20(2).jpeg" },
+  { title: "Christmas Celebration", category: "Events", image: "/images/mytherapist%20gallery/WhatsApp%20Image%202026-09-04%20at%203.08.18%20PM.jpeg" },
+  { title: "One-on-One Therapy", category: "Activities", image: "/images/mytherapist%20gallery/WhatsApp%20Image%202026-09-04%20at%203.08.19%20PM%20(1).jpeg" },
+  { title: "Holi Celebrations", category: "Events", image: "/images/mytherapist%20gallery/WhatsApp%20Image%202026-09-04%20at%203.08.19%20PM%20(2).jpeg" },
+  { title: "Birthday Party", category: "Events", image: "/images/mytherapist%20gallery/WhatsApp%20Image%202026-09-04%20at%203.08.19%20PM%20(3).jpeg" },
+  { title: "Learning Corner", category: "Sessions", image: "/images/mytherapist%20gallery/WhatsApp%20Image%202026-09-04%20at%203.08.19%20PM.jpeg" },
+  { title: "Autism Awareness", category: "Sessions", image: "/images/mytherapist%20gallery/WhatsApp%20Image%202026-09-04%20at%203.08.20%20PM%20(1).jpeg" },
+  { title: "Our Team", category: "Facilities", image: "/images/mytherapist%20gallery/WhatsApp%20Image%202026-09-04%20at%203.08.20%20PM%20(2).jpeg" },
+  { title: "Art & Craft", category: "Activities", image: "/images/mytherapist%20gallery/WhatsApp%20Image%202026-09-04%20at%203.08.20%20PM.jpeg" },
+  { title: "Team Gathering", category: "Facilities", image: "/images/mytherapist%20gallery/WhatsApp%20Image%202026-09-04%20at%203.09.37%20PM.jpeg" },
+  { title: "ABA Therapy Session", category: "Activities", image: "/images/aba-therapy.jpeg" },
 ];
 
 export default function GalleryPage() {
@@ -26,7 +29,7 @@ export default function GalleryPage() {
       <TopBar />
       <Header />
       <main className="flex-1">
-        <SubPageHero bgImage="/images/gallery.jpg" title="Our"
+        <SubPageHero bgImage="/images/mytherapist%20gallery/WhatsApp%20Image%202026-09-04%20at%203.08.18%20PM%20(1).jpeg" title="Our"
           highlight="Gallery"
           subtitle="Take a glimpse inside our center and see the warm, engaging environment where children learn, grow, and thrive."
           breadcrumbs={[
@@ -47,7 +50,7 @@ export default function GalleryPage() {
                     <img src={item.image} alt={item.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
                     <div className="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition-colors" />
                   </div>
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-4">
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-black/10 to-transparent flex items-end p-4">
                     <span className="text-white font-semibold">{item.title}</span>
                     <span className="text-white/70 text-sm ml-2">• {item.category}</span>
                   </div>

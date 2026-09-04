@@ -17,7 +17,7 @@ export default function AboutPage() {
       <TopBar />
       <Header />
       <main className="flex-1">
-        <SubPageHero bgImage="/images/about.jpg" title="About"
+        <SubPageHero bgImage="/images/mytherapist%20gallery/WhatsApp%20Image%202026-09-04%20at%203.08.20%20PM%20(2).jpeg" title="About"
           highlight="Us"
           subtitle="Discover our mission, values, and the passionate team behind My Therapist Development Center."
           breadcrumbs={[

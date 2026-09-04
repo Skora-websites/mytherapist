@@ -14,21 +14,8 @@ export default function Leadership() {
           {/* Image / Visual */}
           <div ref={imageRef} className="relative">
             <div className="relative rounded-3xl overflow-hidden shadow-xl">
-              <div className="aspect-[4/5] bg-gradient-to-br from-brand-blue/10 via-surface-muted to-surface-pinkMuted flex items-center justify-center">
-                {/* Placeholder for leadership photo */}
-                <div className="text-center p-8">
-                  <div className="w-40 h-40 mx-auto mb-6 rounded-full bg-brand-blue/10 flex items-center justify-center">
-                    <svg className="w-20 h-20 text-brand-blue" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
-                    </svg>
-                  </div>
-                  <p className="text-brand-blue font-semibold text-lg">
-                    Vaishali Chauhan
-                  </p>
-                  <p className="text-gray-500 text-sm mt-1">
-                    Founder &amp; Lead Therapist
-                  </p>
-                </div>
+              <div className="aspect-[4/5] bg-gradient-to-br from-brand-blue/10 via-surface-muted to-surface-pinkMuted">
+                <img src="/images/mytherapist%20gallery/portrait.jpeg" alt="Vaishali Chauhan - Founder & Lead Therapist" className="w-full h-full object-cover" />
               </div>
             </div>
             {/* Experience badge */}

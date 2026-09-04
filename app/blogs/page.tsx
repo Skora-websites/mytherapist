@@ -14,7 +14,7 @@ const blogPosts = [
     date: "August 15, 2026",
     category: "Speech Therapy",
     readTime: "5 min read",
-    image: "/images/blog_therapy.jpg",
+    image: "/images/speech-therapy.jpeg",
     slug: "/blogs/understanding-speech-delays",
   },
   {
@@ -23,7 +23,7 @@ const blogPosts = [
     date: "August 10, 2026",
     category: "ABA Therapy",
     readTime: "7 min read",
-    image: "/images/blog_education.jpg",
+    image: "/images/aba-therapy.jpeg",
     slug: "/blogs/what-is-aba-therapy",
   },
   {
@@ -32,7 +32,7 @@ const blogPosts = [
     date: "August 5, 2026",
     category: "Sensory Integration",
     readTime: "6 min read",
-    image: "/images/gallery_facilities.jpg",
+    image: "/images/sensory-integration.jpeg",
     slug: "/blogs/sensory-processing-signs",
   },
   {
@@ -41,7 +41,7 @@ const blogPosts = [
     date: "July 28, 2026",
     category: "General",
     readTime: "4 min read",
-    image: "/images/blog_therapy.jpg",
+    image: "/images/mytherapist%20gallery/WhatsApp%20Image%202026-09-04%20at%203.08.19%20PM%20(1).jpeg",
     slug: "/blogs/early-intervention",
   },
   {
@@ -50,7 +50,7 @@ const blogPosts = [
     date: "July 20, 2026",
     category: "Occupational Therapy",
     readTime: "5 min read",
-    image: "/images/blog_education.jpg",
+    image: "/images/occupational-therapy.jpeg",
     slug: "/blogs/occupational-therapy-benefits",
   },
   {
@@ -59,7 +59,7 @@ const blogPosts = [
     date: "July 15, 2026",
     category: "Special Education",
     readTime: "6 min read",
-    image: "/images/blog_parents.jpg",
+    image: "/images/special-education.jpeg",
     slug: "/blogs/special-education-at-home",
   },
 ];
@@ -72,7 +72,7 @@ export default function BlogsPage() {
       <TopBar />
       <Header />
       <main className="flex-1">
-        <SubPageHero bgImage="/images/blogs.jpg" title="Our"
+        <SubPageHero bgImage="/images/mytherapist%20gallery/WhatsApp%20Image%202026-09-04%20at%203.08.19%20PM%20(2).jpeg" title="Our"
           highlight="Blogs"
           subtitle="Insights, tips, and resources to help you understand your child's development and the therapy journey."
           breadcrumbs={[
