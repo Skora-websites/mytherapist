@@ -34,7 +34,7 @@ export default function ContactPage() {
       <TopBar />
       <Header />
       <main className="flex-1">
-        <SubPageHero bgImage="/images/contact.jpg" title="Contact"
+        <SubPageHero bgImage="/images/mytherapist%20gallery/WhatsApp%20Image%202026-09-04%20at%203.09.37%20PM.jpeg" title="Contact"
           highlight="Us"
           subtitle="We'd love to hear from you. Reach out to us with any questions or to schedule a visit."
           breadcrumbs={[
