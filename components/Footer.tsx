@@ -22,12 +22,12 @@ const services = [
 const socialLinks = [
   {
     label: "Facebook",
-    href: "#",
+    href: "https://www.facebook.com/people/My-Therapist-Child-Development-Center/61567212402162/?ref=PROFILE_EDIT_xav_ig_profile_page_web",
     path: "M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z",
   },
   {
     label: "Instagram",
-    href: "#",
+    href: "https://www.instagram.com/mytherapist_cdc?utm_source=ig_web_button_share_sheet&igsi=ZDNlZDc0MzIxNw==",
     path: "M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01M6.5 3h11A3.5 3.5 0 0121 6.5v11a3.5 3.5 0 01-3.5 3.5h-11A3.5 3.5 0 013 17.5v-11A3.5 3.5 0 016.5 3z",
   },
 
